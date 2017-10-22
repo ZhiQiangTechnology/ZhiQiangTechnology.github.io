@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<link type="text/css" rel="stylesheet" href="css/carousel.css">
+</head>
+<style>
+   .caroursel{margin:0 auto;}
+</style>
+<body>
+  <article class="container">
+
+		<div class = "caroursel poster-main" data-setting = '{
+	        "width":780,
+	        "height":156,
+	        "posterWidth":640,
+	        "posterHeight":156,
+	        "scale":0.8,
+	        "dealy":"2000",
+	        "algin":"middle"
+	    }'>
+	        <ul class = "poster-list">
+	            <li class = "poster-item"><a href="product.html" target="_blank"><img src="images/ups-index.jpg" width = "100%" height="100%"></a></li>
+	            <li class = "poster-item"><a href="product.html" target="_blank"><img src="images/ups-index2.jpg" width = "100%" height="100%"></a></li>
+	            <li class = "poster-item"><a href="product_yy.html" target="_blank"><img src="images/eps-index.jpg" width = "100%" height="100%"></a></li>
+	        </ul>
+	        <div class = "poster-btn poster-prev-btn"></div>
+	        <div class = "poster-btn poster-next-btn"></div>
+
+	    </div>
+
+	</article>
+
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<script src="js/jquery.carousel.js"></script>
+    <script>
+        Caroursel.init($('.caroursel'))
+    </script>
+
+</body>
+</html>

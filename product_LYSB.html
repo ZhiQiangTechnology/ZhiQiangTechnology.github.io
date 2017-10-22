@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>北京上源科技有限公司</title>
+<meta name="keywords" content="北京上源科技有限公司" />
+<meta name="description" content="北京上源科技有限公司" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+<link type="text/css" href="css/style.css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery-1.2.6.pack.js"></script>
+<!--解决 IE6 背景缓存-->
+<!--[if IE 6]><script type="text/javascript">document.execCommand("BackgroundImageCache", false, true);</script><![endif]-->
+</head>
+<body>
+
+	<div class="container header">
+		<div class="clear"></div>
+	  <a class="logo" title="北京上源科技有限公司" href="index.html"><img src="images/logo.png" width="200" height="53" alt="北京上源科技有限公司" /></a>
+		<div class="navbox">
+			<span class="arbg arrowleft"></span>
+	    <span class="arbg arrowright"></span>
+			<ul>
+	      <li><a href="index.html">首页</a></li>
+	      <li><a href="about.html">关于我们</a></li>
+				<li><a href="product.html">产品中心</a></li>
+				<li><a href="service.html">产品服务</a></li>
+				<li><a href="case.html">成功案例</a></li>
+				<li><a href="contact.html">联系我们</a></li>
+				<li><a href="#">ENGLISH</a></li>
+			</ul>
+		</div>
+	</div><!--header end-->
+<div class="container content">
+
+	<div class="picbox"><img src="images/product-pic.jpg" width="1000" height="157" /></div>
+
+	<div class="pubox">
+		<div class="pubtit"><h2 class="f-l" style="color:#990000">产品中心</h2><div class="f-r breadcrumbs"><a href="#">产品中心</a><span>> LYS/B系列三相(动力型)变频应急电源</span></div></div>
+		<div class="about">
+			<ul class="f-l product-sort">
+				<li class="title"><div><a href="product.html">UPS</a></div></li>
+				<li><a href="product.html" >概述及应用范围</a></li>
+				<li><a href="product_A210.html" >A210</a></li>
+				<li><a href="product_A310.html" >A310</a></li>
+				<li><a href="product_A330.html" >A330</a></li>
+				<li><a href="#" onclick="tips(0)">监控软件</a></li>
+				<li><a href="#" onclick="tips(1)">E2001</a></li>
+				<li class="title"><div><a href="product_yy.html">EPS</a></div></li>
+				<li><a href="product_yy.html" >概述及应用范围</a></li>
+				<li><a href="product_LYD.html" >LYD系列(消防)照明应急电源</a></li>
+				<li><a href="product_LYS.html" >LYS系列三相(动力/照明)应急电源</a></li>
+				<li><a href="product_LYSB.html" >LYS/B系列三相(动力型)变频应急电源</a></li>
+			</ul>
+			<div class="f-r product-con">
+        <P align=center><img src="images/eps/EPS-LYS-B-1.5kW～600kW.jpg" border=0 width="175" height="286"></P>
+        <P style="LINE-HEIGHT: 250%">
+          容量：1.5kW～600kW<BR>
+            产品概述：LYS/B系列三相（动力型）变频应急电压，主要为一级电源的消防设施或一级负荷中的电动机提供一种可变频的三相应急电源系统，该产品方便解决电动机的应急供电及其启动过程中对电网的冲击，可广泛应用于智能建筑内各种消防泵、喷淋泵、生活泵、排烟风机、正压风机等设备的应急供电，以及冶金、纺织、石化、矿山等应急供电。<BR>
+            产品特点<BR>
+              变频降压启动控制技术，适用非线性负载。<BR>
+              负载为风机、水泵等消防设施或一级负荷。<BR>
+              负载和电源设备的容量为1：1，不需要余量。<BR>
+              可实现双保险，一用一备或二用一备。<BR>
+            产品优点<BR>
+              节能性好，非应急供电时基本不耗电。<BR>
+              性能稳定，安全可靠，使用寿命长。<BR>
+              自动瞬间切换，可无人值守。<BR>
+              质量可靠、维护简便，同类产品中性价比最好。<BR>
+              无噪音、无污染、无公害，导线和器件具有阻燃性和非阻燃性特性。</P>
+
+
+				</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+
+</div><!--content end-->
+
+<div class="container footer">
+	<div class="quicknav"><a href="terms.html">使用条款</a><span>|</span><a href="statement.html">隐私权声明</a><span>|</span><a href="service.html">服务承诺</a><span>|</span><a href="contact.html">联系我们</a><span>|</span><a href="#">企业邮箱</a></div>
+	<div class="copyright">Copyright &copy; ShangYuan Technology. All Rights Reserved.<span>|</span>版权所有 &copy; 北京上源科技有限公司</div>
+</div><!--footer end-->
+<script>
+$(function () {
+	$(".product-sort li").click(function() {
+			$(this).addClass("active").siblings().removeClass('active');
+			// 添加当前元素的样式
+	});
+});
+function tips(type){
+	if(0==type){
+		alert('暂无');
+	}else{
+		alert('非标产品，需要客户定制！请联系我们');
+	}
+
+}
+</script>
+</body>
+</html>
